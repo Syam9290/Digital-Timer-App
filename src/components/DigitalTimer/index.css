@@ -1,0 +1,104 @@
+/* Write your CSS here */
+
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  padding: 30px;
+  height: 100vh;
+}
+
+.timerSection {
+  display: flex;
+}
+
+.TimerBg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+
+  background-size: cover;
+  height: 450px;
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.timerDisplaySection {
+  background-color: white;
+  padding: 30px;
+
+  border-radius: 80px;
+  height: 150px;
+  width: 150px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  width: 80px;
+}
+
+.action {
+  margin-top: 0px;
+  width: 60px;
+}
+
+.timerDetailsBg {
+  height: 450px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.playResetContainer {
+  display: flex;
+}
+
+.startContainer {
+  display: flex;
+
+  margin-right: 10px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.btn {
+  background-color: transparent;
+  border: none;
+}
+
+.timerSetterBg {
+  background-image: linear-gradient(to right, rgb(134, 226, 134), #00d9f5);
+  height: 35px;
+  width: 50px;
+  align-self: center;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
